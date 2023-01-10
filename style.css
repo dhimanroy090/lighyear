@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Work Sans", sans-serif;
+}
+
+.heading {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* Resoponsiveness styling
+@media screen and (max-width: 576) {
+  .header_container ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ss_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .sp_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .services_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
+/* navbar styling */
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(15, 22, 30);
+  padding: 10px 40px;
+  box-sizing: border-box;
+}
+.header_container h1 {
+  font-size: 25px;
+  color: rgb(52, 255, 245);
+}
+.nav_bar ul li a {
+  font-size: 20px;
+  padding-left: 40px;
+  color: rgb(52, 255, 245);
+}
+.banner_des {
+  color: white;
+  font-size: 35px;
+  padding-top: 180px;
+  padding-left: 40px;
+}
+
+/* Solarsystem styling */
+
+.solar_sys {
+  height: 100vh;
+}
+
+.solar_sys h1 {
+  font-size: 40px;
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(63, 63, 63);
+  width: 500px;
+  margin: 0 auto;
+  border-bottom: 3px solid #ff1919;
+}
+
+.ss_container img {
+  width: 100%;
+  height: 300px;
+  box-shadow: 2px 4px 10px rgb(218, 219, 219);
+  border-radius: 5px;
+}
+.ss_container {
+  margin: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ss_container .ss1 {
+  margin: 10px;
+  box-shadow: 2px 4px 10px rgb(57, 58, 58);
+  border-radius: 5px;
+  padding: 5px;
+}
+.ss_container .ss1 h2 {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 30px;
+  color: rgb(63, 63, 63);
+}
+.ss_container .ss1 p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(63, 63, 63);
+}
+
+/* Spacecrafts styling */
+.spaceship {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(63, 63, 63);
+}
+.spaceship h1 {
+  width: 400px;
+  margin: 0 auto;
+  border-bottom: 3px solid #ff1919;
+}
+
+.sp_container img {
+  width: 100%;
+  box-shadow: 2px 4px 10px rgb(119, 122, 122);
+  border-radius: 5px;
+}
+.sp_container {
+  margin: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sp_container .sp1 {
+  margin: 15px;
+  box-shadow: 2px 4px 10px rgb(167, 167, 167);
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+.sp_container .sp1 h2 {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 30px;
+  color: rgb(63, 63, 63);
+}
+.sp_container .sp1 p {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+  color: rgb(63, 63, 63);
+}
+
+/* Footer styling */
+.services_container p {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.services_container p a {
+  color: rgb(63, 63, 63);
+  font-weight: 700;
+}
